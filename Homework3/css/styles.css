@@ -1,0 +1,325 @@
+html {
+  background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)),
+  url(../img/grainygraytexture.jpg) no-repeat center center fixed;
+  background-size: 100% auto;
+  background-repeat: repeat;
+
+}
+
+body {
+  font-family: Helvetica, serif;
+   width: 100%;
+  height: 100%;
+
+  
+}
+.container{
+	margin-left:10%;
+	margin-right:10%;
+	margin-top:0%;
+	margin-bottom:0%;
+	padding-left:5%;
+	padding-right:5%;
+
+	
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px)
+{
+h1 {
+  text-align:left;
+ font-size: 1em;
+    margin-top: 5%;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+
+
+img {
+   display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 30%;
+  height: auto;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+   font-size: .75em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+    font-size: .8em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+   font-size: 0.60em;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+   font-size: 0.60em;
+  font-weight: bold;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px)
+{
+h1 {
+  text-align:left;
+ font-size: 1.15em;
+    margin-top: 5%;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+
+img {
+   display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 30%;
+  height: auto;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+   font-size: .9em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+    font-size: .9em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+   font-size: 0.70em;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+   font-size: 0.70em;
+  font-weight: bold;
+}
+}
+
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px)
+{
+h1 {
+  text-align:left;
+ font-size: 1.75em;
+    margin-top: 5%;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+img {
+    display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 30%;
+  height: auto;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+   font-size: 1em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+   font-size: 1em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+    font-size: .9em;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 10px;
+    font-size: .9em;
+  font-weight: bold;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px)
+{
+h1 {
+  text-align:left;
+ font-size: 2em;
+    margin-top: 5%;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+img {
+     display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 30%;
+  height: auto;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+font-size: 1.1em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+  font-size: 1.1em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+    font-size: 1em;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 1%;
+    font-size: 1em;
+  font-weight: bold;
+}
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px)
+{
+
+h1 {
+  text-align:left;
+ font-size: 2em;
+    margin-top: 5%;
+  color:#660000;
+  text-shadow: 2px 2px #000000;
+}
+
+img {
+     display: block;
+  margin-left:2%;
+  margin-right:2%;
+  margin-top: 3%;
+  width: 30%;
+  height: auto;
+}
+
+.bio-p {
+  text-align: left;
+  margin-top: 3%;
+  margin-left:0%;
+  margin-right:0%;
+font-size: 1.2em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.bot-p {
+  text-align:left;
+ margin-top: 3%;
+  margin-left: 0%;
+  margin-right:0%;
+  font-size: 1.2em;
+    line-height: 1.5em;
+  color: #FFF;
+}
+
+.skills{
+  color: #FFF;
+  list-style: disc;
+  text-align:left;
+  margin-top: 3%;
+    font-size: 1.1em;
+  line-height: 1.5em;
+}
+
+.skills-list li {
+  display: inline-block;
+  text-align:left;
+  padding: 1%;
+    font-size: 1.1em;
+  font-weight: bold;
+}
+
+}
